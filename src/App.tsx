@@ -32,14 +32,14 @@ const App = () => (
         <meta property="og:url" content="https://marka-gency.com/" />
         <meta property="og:title" content="Marka-gency | Agence de Marketing Digital" />
         <meta property="og:description" content="Des solutions de marketing digital sur mesure pour propulser votre croissance en ligne." />
-        <meta property="og:image" content="https://marka-gency.com/og-image.jpg" />
+        <meta property="og:image" content="/images/marketing-banner.jpg" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://marka-gency.com/" />
         <meta property="twitter:title" content="Marka-gency | Agence de Marketing Digital" />
         <meta property="twitter:description" content="Des solutions de marketing digital sur mesure pour propulser votre croissance en ligne." />
-        <meta property="twitter:image" content="https://marka-gency.com/og-image.jpg" />
+        <meta property="twitter:image" content="/images/marketing-banner.jpg" />
       </Helmet>
       
       <BrowserRouter>

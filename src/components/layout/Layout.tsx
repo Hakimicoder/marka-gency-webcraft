@@ -19,7 +19,7 @@ const Layout = ({
   description,
   ogTitle,
   ogDescription,
-  ogImage = '/og-image.jpg',
+  ogImage = '/images/marketing-banner.jpg',
 }: LayoutProps) => {
   return (
     <>

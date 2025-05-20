@@ -36,7 +36,7 @@ const Home = () => {
             <div className="hidden md:block relative animate-fadeIn">
               <div className="absolute inset-0 bg-gradient-to-br from-brand-coral/20 to-brand-teal/20 rounded-lg" />
               <img
-                src="/placeholder.svg"
+                src="/images/marketing-banner.jpg"
                 alt="Marketing Digital Stratégique"
                 className="rounded-lg relative z-10"
                 width={600}
@@ -62,7 +62,7 @@ const Home = () => {
             <div className="relative">
               <div className="bg-brand-blue/10 absolute -left-4 -bottom-4 w-full h-full rounded-lg"></div>
               <img
-                src="/placeholder.svg"
+                src="/images/marketing-team.jpg"
                 alt="Notre équipe"
                 className="rounded-lg relative z-10 w-full"
               />
@@ -261,7 +261,9 @@ const Home = () => {
                 "Marka-gency a transformé notre approche marketing. Leur expertise en SEO a multiplié notre trafic organique par 3 en seulement 6 mois."
               </p>
               <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full bg-brand-gray-200 mr-4"></div>
+                <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
+                  <img src="/images/testimonial-1.jpg" alt="Sophie Martin" className="w-full h-full object-cover" />
+                </div>
                 <div>
                   <h4 className="font-semibold">Sophie Martin</h4>
                   <p className="text-sm text-brand-gray-600">Directrice Marketing, TechInno</p>
@@ -275,7 +277,9 @@ const Home = () => {
                 "Le redesign de notre site web par Marka-gency a considérablement amélioré l'engagement des utilisateurs et notre taux de conversion."
               </p>
               <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full bg-brand-gray-200 mr-4"></div>
+                <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
+                  <img src="/images/testimonial-2.jpg" alt="Thomas Dubois" className="w-full h-full object-cover" />
+                </div>
                 <div>
                   <h4 className="font-semibold">Thomas Dubois</h4>
                   <p className="text-sm text-brand-gray-600">CEO, E-Commerce Plus</p>
@@ -289,7 +293,9 @@ const Home = () => {
                 "Un partenaire stratégique qui comprend réellement nos besoins et nous propose des solutions adaptées à notre secteur très concurrentiel."
               </p>
               <div className="flex items-center">
-                <div className="w-12 h-12 rounded-full bg-brand-gray-200 mr-4"></div>
+                <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
+                  <img src="/images/testimonial-3.jpg" alt="Lucie Bernard" className="w-full h-full object-cover" />
+                </div>
                 <div>
                   <h4 className="font-semibold">Lucie Bernard</h4>
                   <p className="text-sm text-brand-gray-600">Fondatrice, Studio Design LB</p>
